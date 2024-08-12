@@ -1,0 +1,35 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+.navbarfont {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 550;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  color: #070f12; 
+}
+#bitmoji {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  border-radius: 50%; 
+  border: 1px solid #ddd; 
+}
+
+.bg-lightblue {
+  background-color: #8cd3eb; 
+}
+
+.bg-green {
+  background-color: #76a983cc
+}

@@ -1,18 +1,120 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DOM Manipulation</title>
-    <style>
-        h1 {
-            color: blue;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mohammed Ishraq's Portfolio</title>
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato&family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      background-color: #9ae8f6bd; 
+    }
+  </style>
 </head>
-<body>
-    <h1>Classwork</h1>
-    <button id="color-button">Change Color</button>
-    <script src="dom.js"></script>
+<body> 
+  <!-- Nav Bar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-lightblue navbarfont">
+    <a class="navbar-brand" href="#">Mohammed Ishraq's Portfolio</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="business.html">entreprenAI</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="container mt-5">
+    <div class="row">
+      <div class="col text-center">
+        <h1>Mohammed Ishraq's Portfolio</h1>
+      </div>
+    </div>
+
+    <!-- Intro paragraph -->
+    <div class="row mt-4">
+      <div class="col">
+        <h5>Hi! My name is Mohammed, and I'm 18. I am a rising freshman at Macaulay Honors College, aspiring to major in computer science with a concentration in data analytics and AI. I am also currently a fellow at The Knowledge House's Karim Kharbouch Coding Fellowship (KKCF).</h5>
+      </div>
+    </div>
+    <br>
+    <img id="bitmoji" src="https://www.ibm.com/content/dam/connectedassets-adobe-cms/worldwide-content/stock-assets/getty/image/photography/f8/d9/code-brain.jpg/_jcr_content/renditions/cq5dam.medium.1584.1584.jpeg">
+    <br>
+    <br>
+    <!-- Skills section -->
+    <div class="row mt-5">
+      <div class="col">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Skills</h5>
+            <p class="card-text">- Proficient with Python and Java</p>
+            <p class="card-text">- Moderate level with JavaScript and Bootstrap</p>
+            <p class="card-text">- Beginner level in Machine Learning and Data Visualization</p>
+            <p class="card-text">- Well versed in the Microsoft Office Suite (Word, Excel, PowerPoint) and Google Suite (Docs, Sheets, Slides)</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Goals section -->
+    <div class="row mt-4">
+      <div class="col">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Goals</h5>
+            <p class="card-text">- Earn a master's degree in Computer Science from Columbia University.</p>
+            <p class="card-text">- Land an internship with a good salary, preferably at a FAANG company.</p>
+            <p class="card-text">- Learn about the stock market and begin making wise investments.</p>
+            <p class="card-text">- Create a restaurant or café that serves pastries, coffee, and delicious lunch options.</p>
+            <p class="card-text">- Achieve the financial freedom to retire at an early age and then embark on a world tour with my family.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Interests section -->
+    <div class="row mt-3">
+      <div class="col">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Interests</h5>
+            <p class="card-text">- Sports: I have always loved playing sports ever since I was a child. My favorite sports are basketball, football, and badminton.</p>
+            <p class="card-text">- Horror Stories: I love watching horror stories in my free time. After a stressful day of school, I find it relaxing to close my eyes and immerse myself in a story that gives me chills and keeps me thoroughly engaged.</p>
+            <p class="card-text">- Nature: I love exploring the world and going for walks. Being in a quiet place surrounded by trees and lakes brings peace to my mind. Sometimes I go outside just to enjoy the breeze and the serenity of nature.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <br>
+  <br>
+  <div class="d-flex justify-content-center">
+    <button id="btnbruh">Click Here for a Cookie!</button>
+  </div>
+  <br>
+  <br>
+  <br>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script>
+    document.getElementById("btnbruh").addEventListener("click", myFunction);
+
+    function myFunction() {
+      alert("YOU HAVE BEEN HACKED!!!");
+    }
+  </script>
 </body>
 </html>
+
